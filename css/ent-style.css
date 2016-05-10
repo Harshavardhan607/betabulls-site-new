@@ -226,7 +226,7 @@ ul.footer {
   list-style: none;
   padding: 20px 15px;
   background: #ccc;
-  margin: 10px 0px;
+  margin: 20px 0px;
   overflow: hidden; }
 
 .case_studies img {
@@ -272,3 +272,113 @@ ul.footer {
   text-align: center; }
 
 /*# sourceMappingURL=ent-style.css.css.map */
+
+
+.page-top {
+    padding: 40px 0;
+    background: #fff;
+     text-align: center;
+}
+.page-top h1{
+	font-weight: bold;
+	color: #e9424b !important;
+}
+.call-to-action p:nth-child(2){
+	font-size:26px !important;
+}
+
+
+.arrow_box {
+	position: relative;
+	background: #5992c5;
+	z-index: 2;
+	font-size: 32px;
+	padding:25px 0;
+	color: #fff; 
+}
+.arrow_box:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-top-color: #5992c5;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-top-color: #5992c5;
+	border-width: 36px;
+	margin-left: -36px;
+}
+.home-cust-succ #timeline{
+	background: #fff;
+	margin: 0;
+}
+
+.home-cust-succ #issues{
+	padding-top: 25px;
+	text-align: left;
+	background: #fff;
+	padding:25px 20px 0 20px; 
+}
+.home-cust-succ #issues li{
+	width: 1250px;
+}
+.home-cust-succ #next {
+    margin-right: 10px;
+    background-image: url('../img/next1.png');
+}
+.home-cust-succ #prev {
+    margin-right: 10px;
+    background-image: url('../img/prev1.png');
+}
+.home-cust-succ #next, .home-cust-succ #prev {
+    position: absolute;
+    font-size: 70px;
+    top: 100px;
+    width: 58px;
+    height: 61px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+.home-cust-succ #next:hover, .home-cust-succ #prev:hover {
+    background-position: 0 0px;
+}
+.app-dic:nth-child(1){
+	width: 350px;
+	float: left;
+}
+.app-dic{
+	width: 700px;
+	float: left;
+}
+.app-dic h1{
+	display: block;
+}
+.app-dic p{
+	display: block;
+}
+.clnt-log img{
+	margin:10px 0 0 0 !important;
+	padding:0!important;
+	display: block; 
+}
+.clnt-log p{
+	display: block;
+	float: left;
+	overflow: hidden;
+	font-size: 18px !important;
+	line-height: 32px !important;
+	margin-top: 10px;
+}
