@@ -285,6 +285,7 @@ ul.footer {
 }
 .call-to-action p:nth-child(2){
 	font-size:26px !important;
+	font-weight: normal;
 }
 
 
